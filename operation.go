@@ -126,7 +126,7 @@ func (c *Operation0[TRes]) Key() *KeyOperationT[TRes] {
 	}
 }
 
-// Operation1 表示 key 只由0个元素组成的缓存操作对象。
+// Operation1 表示 key 只由1个元素组成的缓存操作对象。
 type Operation1[TKey UniqueFlag, TRes any] struct {
 	op Operation
 }
